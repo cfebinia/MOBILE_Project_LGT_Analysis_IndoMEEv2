@@ -6,11 +6,11 @@ library(tidyr)
 library(stringr)
 
 # Paths
-# my_lib <- "/home/caf77/R/x86_64-pc-linux-gnu-library/4.2"
+# my_lib <- "R/x86_64-pc-linux-gnu-library/4.2"
 # .libPaths(c(my_lib, .libPaths()))
 
-basedir="C:/Users/caf77_Local/Documents/OneDrive - University of Cambridge/Imaging_Lab_PC1/WAAFLE_Extra"
-# basedir="C:/Users/caf77/OneDrive - University of Cambridge/Imaging_Lab_PC1/WAAFLE_Extra"
+basedir="Imaging_Lab_PC1/WAAFLE_Extra"
+# basedir="Imaging_Lab_PC1/WAAFLE_Extra"
 # setwd(basedir)
 
 input_dir=file.path(basedir,"input_file")
