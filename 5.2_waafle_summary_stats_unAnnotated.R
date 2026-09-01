@@ -6,7 +6,7 @@ library(tidyr)
 library(stringr)
 
 # Paths
-# my_lib <- "/home/caf77/R/x86_64-pc-linux-gnu-library/4.2"
+# my_lib <- "R/x86_64-pc-linux-gnu-library/4.2"
 # .libPaths(c(my_lib, .libPaths()))
 
 basedir="Imaging_Lab_PC1/WAAFLE_Extra"
