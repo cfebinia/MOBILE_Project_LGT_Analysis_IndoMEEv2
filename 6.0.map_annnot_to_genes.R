@@ -5,7 +5,7 @@ library(purrr)
 library(ggplot2)
 
 
-basedir <- "C:/Users/caf77_Local/Documents/OneDrive - University of Cambridge/Imaging_Lab_PC1/WAAFLE_Extra/"
+basedir <- "Imaging_Lab_PC1/WAAFLE_Extra/"
 setwd(basedir)
 annotation_file <- "input_file/annotations/master_all_annotations.tsv"
 cazy_info <- "input_file/annotations/CAZY_db/fam-substrate-mapping.tsv"
