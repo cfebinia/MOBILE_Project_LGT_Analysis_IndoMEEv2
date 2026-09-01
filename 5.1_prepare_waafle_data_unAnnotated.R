@@ -1,13 +1,13 @@
 rm(list=ls())
 
-basedir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/WAAFLE_Extra"
+basedir="Documents/Analysis/MOBILE/WAAFLE_Extra"
 setwd(basedir)
 
 type=c("humanFecal","dogFecal","humanOral","dogOral","humanSkin","dogSkin")
 cType=c("DHF","DDF","DHV","DDV","DHP","DDH")
 output_dir=file.path(basedir,"index")
 
-input_dir="C:/Users/caf77/OneDrive - University of Cambridge/Documents/Analysis/MOBILE/MOBILE_microbiome/input_files/waafle"
+input_dir="Documents/Analysis/MOBILE/MOBILE_microbiome/input_files/waafle"
 waffle_file="raw_all_internal_merged_filtered.lgt.tsv"
 
 dir.create(output_dir,showWarnings = F,recursive = T)
