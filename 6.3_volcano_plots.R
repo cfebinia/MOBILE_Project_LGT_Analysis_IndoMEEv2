@@ -8,8 +8,8 @@ library(purrr)
 library(ggplot2)
 library(ggrepel)
 
-# basedir="C:/Users/caf77_Local/Documents/OneDrive - University of Cambridge/Imaging_Lab_PC1/WAAFLE_Extra"
-basedir="C:/Users/caf77/OneDrive - University of Cambridge/Imaging_Lab_PC1/WAAFLE_Extra"
+# basedir="Imaging_Lab_PC1/WAAFLE_Extra"
+basedir="WAAFLE_Extra"
 setwd(basedir)
 
 summary_dir=file.path(basedir, "summary_tables")
